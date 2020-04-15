@@ -9,6 +9,8 @@ import { DataService } from '../data.service';
 export class NavComponent implements OnInit {
 
   about: any;
+  isCollapsed = false;
+
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {

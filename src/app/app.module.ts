@@ -8,17 +8,25 @@ import { NavComponent } from './nav/nav.component';
 
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { AboutComponent } from './about/about.component';
+import { PortfolioCardComponent } from './portfolio-card/portfolio-card.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    AboutComponent
+    AboutComponent,
+    PortfolioCardComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    CollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

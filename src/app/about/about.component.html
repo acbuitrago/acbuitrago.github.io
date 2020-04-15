@@ -8,11 +8,8 @@
     {{about.description}}
   </p>
   <div class="social-icons">
-    <a href="https://www.linkedin.com/in/acbuitrago/" target="_blank">
-      <fa-icon [icon]="['fab', 'linkedin-in']"></fa-icon>
-    </a>
-    <a href="https://github.com/acbuitrago" target="_blank">
-      <fa-icon [icon]="['fab', 'github']"></fa-icon>
+    <a *ngFor="let social of about.social" [href]="social.url" target="_blank">
+      <fa-icon [icon]="[social.lib, social.name]"></fa-icon>
     </a>
   </div>
 </div>
