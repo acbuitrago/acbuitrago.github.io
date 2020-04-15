@@ -10,42 +10,74 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
+        "url": "https://www.linkedin.com/in/acbuitrago/",
+        "lib": "fab",
+        "name": "linkedin-in"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "google-plus",
-        "url": "http://googleplus.com/tbakerx",
-        "className": "fa fa-google-plus"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
-      },
-      {
-        "name": "skype",
-        "url": "http://skype.com",
-        "className": "fa fa-skype"
+        "url": "https://github.com/acbuitrago",
+        "lib": "fab",
+        "name": "github"
       }
     ]
   },
+  "portfolio": [
+    {
+      "name":"FoodPoint",
+      "summary": "iOS and Android App to manage food trucks",
+      "image": "foodpoint.png"
+    },
+    {
+      "name":"EnMarkate",
+      "summary": "iOS and Android App",
+      "image": "enmarkate.png"
+    },
+    {
+      "name":"2Nait",
+      "summary": "Developed the redesign version in iOS and Android",
+      "image": "2nait.jpg"
+    },
+    {
+      "name":"ITSTK Beacons",
+      "summary": "Developed a proximity market MVP in Xamarin",
+      "image": "enmarkate.png"
+    },
+    {
+      "name":"RuedaMoto",
+      "summary": "Android app for couriers",
+      "image": "ruedamoto.png"
+    },
+    {
+      "name":"ICDOT",
+      "summary": "iOS and Android App to assist truckers in spotting DOT inspections",
+      "image": "icdot.png"
+    },
+    {
+      "name":"TourBlink Louvre",
+      "summary": "iOS app to guide people across Louvre Museum",
+      "image": "louvre.jpg"
+    },
+    {
+      "name":"Axel",
+      "summary": "iOS and Android app to show and promote city discounts",
+      "image": "axel.png"
+    },
+    {
+      "name":"TMJ",
+      "summary": "Courier tracking app and web",
+      "image": "tmj-screenshot.png"
+    },
+    {
+      "name":"WABA",
+      "summary": "MacOS App for remote working",
+      "image": "waba.png"
+    },
+    {
+      "name":"PassQlub",
+      "summary": "Developed an iOS app to access information of passbock coupons",
+      "image": "passqlub.png"
+    }
+  ],
   "resume": {
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
@@ -104,40 +136,6 @@
       {
         "name": "MongoDB",
         "level": "80%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
       }
     ]
   }
