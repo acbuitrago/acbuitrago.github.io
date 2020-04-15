@@ -1,0 +1,18 @@
+<div class="w-100">
+  <h1 class="mb-0">{{about.firstNames}}
+    <span class="text-primary">{{about.lastNames}}</span>
+  </h1>
+  <div class="subheading mb-5">{{about.address}} ·<span *ngIf="about.phone"> {{about.phone}} ·</span> <a href="mailto:{{about.email}}"> {{about.email}}</a>
+  </div>
+  <p class="lead mb-5">
+    {{about.description}}
+  </p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/acbuitrago/" target="_blank">
+      <fa-icon [icon]="['fab', 'linkedin-in']"></fa-icon>
+    </a>
+    <a href="https://github.com/acbuitrago" target="_blank">
+      <fa-icon [icon]="['fab', 'github']"></fa-icon>
+    </a>
+  </div>
+</div>
