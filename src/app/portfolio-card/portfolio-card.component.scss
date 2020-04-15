@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+.card {
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(73, 80, 87, 0.7);
+}
+
+.pill {
+    background-color: $primary;
+    border-radius: 12px;
+    padding: 3px 7px;
+    margin: 2px;
+}

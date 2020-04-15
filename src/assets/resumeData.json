@@ -23,7 +23,22 @@
   },
   "portfolio": [
     {
-      "name":"FoodPoint",
+      "name":"Tribe",
+      "summary": "iOS app that uses TwilioJS",
+      "image": "foodpoint.png"
+    },
+    {
+      "name":"Sistema de reportes - Aportes en línea",
+      "summary": "iOS app that uses TwilioJS",
+      "image": "foodpoint.png"
+    },
+    {
+      "name":"Vet-O",
+      "summary": "iOS app that uses TwilioJS",
+      "image": "foodpoint.png"
+    },
+    {
+      "name":"FoodTruck",
       "summary": "iOS and Android App to manage food trucks",
       "image": "foodpoint.png"
     },
@@ -60,22 +75,26 @@
     {
       "name":"Axel",
       "summary": "iOS and Android app to show and promote city discounts",
-      "image": "axel.png"
+      "image": "axel.png",
+      "tech": ["Android", "iOS", "Angular"]
     },
     {
       "name":"TMJ",
       "summary": "Courier tracking app and web",
-      "image": "tmj-screenshot.png"
+      "image": "tmj-screenshot.png",
+      "tech": ["Android", "iOS", "Angular", "Android", "iOS", "Angular"]
     },
     {
       "name":"WABA",
       "summary": "MacOS App for remote working",
-      "image": "waba.png"
+      "image": "waba.png",
+      "tech": ["Android", "iOS", "Angular"]
     },
     {
       "name":"PassQlub",
       "summary": "Developed an iOS app to access information of passbock coupons",
-      "image": "passqlub.png"
+      "image": "passqlub.png",
+      "tech": ["Android", "iOS", "Angular"]
     }
   ],
   "resume": {
