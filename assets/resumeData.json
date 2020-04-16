@@ -23,59 +23,203 @@
   },
   "portfolio": [
     {
+      "name":"Tribe",
+      "description": "Tribe is a tool whose main goal is to create a new experience around remote work, bringing people closer through images and video. <br>This MacOS app: <ul> <li>Allows the user to see which coworkers are connected in any moment. </li> <li> Allows the user send video messages to any coworker. This video message can include screensharing.</li> <li> Allows the user to call any coworker or go inside a room where people might be in.</li><br> I was Tech Lead on this project for 8 months and developed new functionalities on the frontend and backend.",
+      "image": "tribe.png",
+      "tech": ["Angular", "ElectronJS", "Twilio", "Java"],
+      "images": [ "tribe.png", "tribe2.png", "tribe3.png"],
+      "links": []
+    },
+    {
+      "name":"Sistema de reportes - Aportes en línea",
+      "description": "Developed a VueJS web application that allows the user to view, create and edit reports. ",
+      "image": "mareigua1.png",
+      "tech": ["VueJS"],
+      "images": ["mareigua1.png", "mareigua2.png"],
+      "links": [ ]
+    },
+    {
+      "name":"Vet-O",
+      "description": "Using the provided designs, I developed an iOS (Swift) application for a startup that offers veterinary service only 24 hours a day. The app uses TwilioVideo to create a video call that allows the user to connect with a veterinary in any moment.",
+      "image": "veto.jpg",
+      "tech": ["iOS", "Twilio"],
+      "images": [ "veto.jpg", "veto2.jpg"],
+      "links": [
+        {
+          "url": "https://apps.apple.com/co/app/veterinario-online-veto/id1454708059",
+          "lib": "fab",
+          "name": "apple"
+        }
+      ]
+    },
+    {
       "name":"FoodPoint",
-      "summary": "iOS and Android App to manage food trucks",
-      "image": "foodpoint.png"
+      "description": "I developed an Android and iOS app to track a food truck franchises. The app helps the franchise owner by tracking the status of each food truck (position, money earned, inventory).",
+      "image": "foodpoint.png",
+      "tech": ["Android", "iOS"],
+      "images": [ "foodpoint.png"],
+      "links": [ ]
     },
     {
       "name":"EnMarkate",
-      "summary": "iOS and Android App",
-      "image": "enmarkate.png"
+      "description": "I developed an Android and iOS app that uses iBeacons to send coupons and discounts. The app also uses GPS to send relevant information to the users.",
+      "image": "enmarkate.png",
+      "tech": ["Android", "iOS"],
+      "images": [ "enmarkate.png", "enmarkate-screenshot.png", "enmarkate-screenshot1.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.enmarkte.enmarkteapp",
+          "lib": "fab",
+          "name": "android"
+        }
+      ]
     },
     {
       "name":"2Nait",
-      "summary": "Developed the redesign version in iOS and Android",
-      "image": "2nait.jpg"
+      "description": " I developed the redesign of the iOS (Swift) and Android (Java) application, also added functionalities for both apps. Additionally, in this project, I worked on the admin panel (ReactJS) to add new features. ",
+      "image": "2nait.jpg",
+      "tech": ["Android", "iOS", "ReactJS"],
+      "images": [ "2nait.jpg", "2nait-screenshot.jpg", "2nait-screenshot1.jpg"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.tunait.android&hl=en",
+          "lib": "fab",
+          "name": "android"
+        },
+        {
+          "url": "https://itunes.apple.com/es/app/2nait/id1116990644?mt=8",
+          "lib": "fab",
+          "name": "apple"
+        }
+      ]
     },
     {
-      "name":"ITSTK Beacons",
-      "summary": "Developed a proximity market MVP in Xamarin",
-      "image": "enmarkate.png"
+      "name":"ITSTK",
+      "description": "I developed a simple Android and iOS application (using Xamarin) for a proximity market test. On a store the users received coupons with the products relevant to the zone of the store. <br> <br> The app was not published.",
+      "image": "enmarkate.png",
+      "tech": ["Xamarin"],
+      "images": [],
+      "links": []
     },
     {
       "name":"RuedaMoto",
-      "summary": "Android app for couriers",
-      "image": "ruedamoto.png"
+      "description": "I developed an Android app in which a courier can receive jobs on demand, the kinds of jobs that can be asked are: taking goods from a place to another or taking someone from a place to another. The app tracks the courier movements allowing the user to see where he is, and where he is heading.",
+      "image": "ruedamoto.png",
+      "tech": ["Android"],
+      "images": [ "ruedamoto.png", "ruedamoto-screenshot1.png", "ruedamoto-screenshot2.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.ruedamoto.mensajero&hl=en",
+          "lib": "fab",
+          "name": "android"
+        }
+      ]
     },
     {
       "name":"ICDOT",
-      "summary": "iOS and Android App to assist truckers in spotting DOT inspections",
-      "image": "icdot.png"
+      "description": "I developed the newest version of the iOS and Android app. This app assist truckers in spotting DOT Inspection Stations while they are traveling the nation's highways. A user can generate a geotagged tip indicating that he found an inspection of the Department of Transportation or other eventuality; later, the system generates a push notification for the users that are in a radio near the tip. <br> Additionally, the application performs voice recognition to generate tips, allowing truckers not to stop to type the tip. On the other hand, the application uses AdMob to generate advertising within the application.",
+      "image": "icdot.png",
+      "tech": ["Android", "iOS"],
+      "images": [ "icdot.png", "icdot-screenshot1.png", "icdot-screenshot.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.icdot.icdotapp&hl=en",
+          "lib": "fab",
+          "name": "android"
+        },
+        {
+          "url": "https://itunes.apple.com/us/app/icdot/id879833642?mt=8",
+          "lib": "fab",
+          "name": "apple"
+        }
+      ]
     },
     {
       "name":"TourBlink Louvre",
-      "summary": "iOS app to guide people across Louvre Museum",
-      "image": "louvre.jpg"
+      "description": "I developed the iOS app and months later, helped to implement a redesign over this app. TourBlink Louvre guides people across the Louvre Museum, ensuring that the main pieces of art are visited. The app uses a neural network to identify the artwork that the user is seeing from a photo, then it provides information about the artwork. <br> I was in charge of developing the implementation of the neural network in Swift, to give it a trained model and using it in the app.",
+      "image": "louvre.jpg",
+      "tech": ["Android", "iOS", "Java"],
+      "images": [ "louvre.jpg", "louvre-screenshot1.jpg", "louvre-screenshot2.jpg"],
+      "links": [
+        {
+          "url": "https://itunes.apple.com/us/app/tourblink-louvre/id1220004840?mt=8",
+          "lib": "fab",
+          "name": "apple"
+        }
+      ]
     },
     {
       "name":"Axel",
-      "summary": "iOS and Android app to show and promote city discounts",
-      "image": "axel.png"
+      "description": "I developed an iOS and Android app that gathers all the shops and promotions of a city. The app shows the closest stores according to the user location, and allows the user to search a product or a service in the city. <br> One of the challenges of this application was to develop a chat between the user and a store, this was done using the database in real time Firebase.",
+      "image": "axel.png",
+      "tech": ["Android", "iOS"],
+      "images": ["axel.png", "axel-screenshot.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=tech.genesis.axel&hl=en",
+          "lib": "fab",
+          "name": "android"
+        }
+      ]
     },
     {
       "name":"TMJ",
-      "summary": "Courier tracking app and web",
-      "image": "tmj-screenshot.png"
+      "description": "I developed an Android app that tracks the location of couriers and the packages they carry through their day. The application uses Firebase real-time database to store the location information and status of the couriers. In this way, it is possible to consume in real time the information of the whole system. <br> Additionally, I developed the Angular web application that helps manage the whole system, using Firebase real-time database. ",
+      "image": "tmj-screenshot.png",
+      "tech": ["Android", "Angular"],
+      "images": [ "tmj-screenshot.png", "tmj-webadmin.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.tmj.deliveryapp&hl=en",
+          "lib": "fab",
+          "name": "android"
+        },
+        {
+          "url": "https://2-dot-tmjback.appspot.com/",
+          "lib": "fas",
+          "name": "link"
+        }
+      ]
+    },
+    {
+      "name":"Livero",
+      "description": "Livero was a food-delivery start-up in Bogotá, Colombia. The value proposition was to offer delivery of restaurants that don’t have delivery service.<br> - I developed the mobile app in iOS (Swift) for the end-users from designs. <br> - I helped maintain the Android app for end-users and couriers. <br> - I developed the web page in AngularJS that manages in real-time the whole system using Firebase real-time DB. ",
+      "image": "livero-screenshot.png",
+      "tech": ["Android", "iOS"],
+      "images": [ "livero-screenshot.png"],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=mobile.livero&hl=en_GB",
+          "lib": "fab",
+          "name": "android"
+        },
+        {
+          "url": "https://itunes.apple.com/us/app/livero/id1102101290?mt=8",
+          "lib": "fab",
+          "name": "apple"
+        }
+      ]
     },
     {
       "name":"WABA",
-      "summary": "MacOS App for remote working",
-      "image": "waba.png"
+      "description": "I developed an application for MacOS that aims to improve remote working within an organization. The application performs a control of the processes, applications, and connections that the operating system has, ensuring that only those elements that the employer allows are executed on the system. Additionally, when the application is active, it tracks all the actions that the user performs, allowing the system to generate a report for the employer of the activity of the worker.",
+      "image": "waba.png",
+      "tech": ["MacOS"],
+      "images": [ "waba.png"],
+      "links": [
+        {
+          "url": "https://waba.azuan-service.com",
+          "lib": "fas",
+          "name": "link"
+        }
+      ]
     },
     {
       "name":"PassQlub",
-      "summary": "Developed an iOS app to access information of passbock coupons",
-      "image": "passqlub.png"
+      "description": "- I developed the iOS (Objective C) and Android (Java) application that provides information on passbook coupons and events. The main requirements of the application were: consuming data from a web service and allow the users to access the information in a low connectivity environment. <br> - Additionally, I developed the web application and server (on Java EE) to allow the generation of customized passbook coupons. ",
+      "image": "passqlub.png",
+      "tech": ["Android", "iOS", "Java"],
+      "images": [ "passqlub.png"]
     }
   ],
   "resume": {
