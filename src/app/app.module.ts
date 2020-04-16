@@ -12,6 +12,9 @@ import { PortfolioCardComponent } from './portfolio-card/portfolio-card.componen
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { PortfolioModalComponent } from './portfolio-modal/portfolio-modal.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -19,14 +22,17 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     NavComponent,
     AboutComponent,
     PortfolioCardComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PortfolioModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    ModalModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

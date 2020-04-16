@@ -3,6 +3,11 @@
     overflow: hidden;
 }
 
+.card-img-top {
+    max-height: 210px;
+    object-fit:contain;
+}
+
 .overlay {
     background-color: rgba(73, 80, 87, 0.7);
 }

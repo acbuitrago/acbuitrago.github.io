@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { trigger, state, style, transition, animate, group, query, animateChild, sequence } from '@angular/animations';
+import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
+import { PortfolioModalComponent } from '../portfolio-modal/portfolio-modal.component';
 
 @Component({
   selector: 'app-portfolio-card',
@@ -55,9 +57,15 @@ export class PortfolioCardComponent implements OnInit {
 
   show = false;
 
-  constructor() { }
+  bsModalRef: BsModalRef;
+  constructor(private modalService: BsModalService) { }
 
   ngOnInit(): void {
+  }
+
+  openModal() {
+    this.bsModalRef = this.modalService.show(PortfolioModalComponent, Object.assign({}, { class: 'modal-lg' }));
+    this.bsModalRef.content.closeBtnName = 'Close';
   }
 
 }

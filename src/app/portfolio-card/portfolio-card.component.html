@@ -1,6 +1,6 @@
 <div class="col pb-4 h-100">
-  <div class="card h-100 text-white justify-content-center" (mouseenter)="show=true;" (mouseleave)="show=false;" >
-    <img [src]="'assets/img/portfolio/'+img" class="card-img-top" style="max-height: 210px;object-fit:contain;">
+  <div class="card h-100 text-white justify-content-center" (mouseenter)="show=true;" (mouseleave)="show=false;"  (click)="openModal()">
+    <img [src]="'assets/img/portfolio/'+img" class="card-img-top">
     <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay" *ngIf="show" [@fadeInOut]>
       <h5 class="card-title text-center">{{title}}</h5>
       <div class="d-flex flex-wrap justify-content-center">

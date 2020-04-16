@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+.img-slide {
+    width: 20vw;
+    display: block;
+    object-fit:contain;
+}
+.close {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 1000;
+}
+
+.info {
+    padding: 15px;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: $gray-700;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: $primary;
+  }
+  
