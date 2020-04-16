@@ -2,7 +2,6 @@
 .img-slide {
     width: 20vw;
     display: block;
-    object-fit:contain;
 }
 .close {
     position: absolute;
@@ -17,25 +16,26 @@
     padding: 15px;
 }
 
-
-.social-icons a {
+.links{
+   a {
     display: inline-block;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     background-color: $gray-700;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
     margin-right: 1rem;
   }
   
-  .social-icons a:last-child {
+  a:last-child {
     margin-right: 0;
   }
   
-  .social-icons a:hover {
+   a:hover {
     background-color: $primary;
   }
+}
   

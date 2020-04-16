@@ -55,6 +55,9 @@ export class PortfolioCardComponent implements OnInit {
   @Input()
   techs: string[];
 
+  @Input()
+  project: any;
+
   show = false;
 
   bsModalRef: BsModalRef;
@@ -64,7 +67,7 @@ export class PortfolioCardComponent implements OnInit {
   }
 
   openModal() {
-    this.bsModalRef = this.modalService.show(PortfolioModalComponent, Object.assign({}, { class: 'modal-lg' }));
+    this.bsModalRef = this.modalService.show(PortfolioModalComponent, { initialState: { project: this.project }, class: 'modal-lg' });
     this.bsModalRef.content.closeBtnName = 'Close';
   }
 

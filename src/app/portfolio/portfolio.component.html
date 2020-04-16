@@ -1,3 +1,3 @@
 <div class="row row-cols-1 row-cols-md-3">
-    <app-portfolio-card *ngFor="let card of portfolio" [title]="card.name" [img]="card.image" [summary]="card.summary" [techs]="card.tech"></app-portfolio-card>
+    <app-portfolio-card *ngFor="let card of portfolio" [project]="card" [title]="card.name" [img]="card.image" [summary]="card.summary" [techs]="card.tech"></app-portfolio-card>
 </div>
